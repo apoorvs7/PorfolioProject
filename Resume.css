@@ -1,6 +1,20 @@
 body{
 	margin: 0;
 }
+#scroll{
+	position: fixed;
+	top: 94%;
+	left: 90%;
+	height: 20px;
+	width: 100px;
+	background-color: rgba(0,0,0,0);
+	border-radius: 20px;
+	font-size: 1rem;
+	text-align: center;
+	z-index: 10;
+	box-shadow: 0 3px 10px 1px lightgrey;
+	padding: 5px;
+}
 
 #body-header{
 	height: 65vh;
@@ -19,6 +33,19 @@ body{
 	}
 	#my-name{
 		margin-top: 150px;
+	}
+	#scroll{
+		height: 40px;
+		width: 58px;
+		top: 90%;
+		left: 87%;
+		border-radius: 15px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+
+	#view{
+		display: block;
 	}
 }
 
@@ -70,6 +97,20 @@ nav ul{
 		height: 0;
 		width: 0;
 		overflow: hidden;
+	}
+
+	#scroll{
+		height: 40px;
+		width: 58px;
+		top: 90%;
+		left: 87%;
+		border-radius: 15px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+
+	#view{
+		display: block;
 	}
 
 	.menu{
@@ -241,6 +282,7 @@ section:nth-child(2n+1){
 
 .percent{
 	display: flex;
+	width: 0%;
 	height: 30px;
 	border-bottom-left-radius: 15px;
 	border-top-left-radius: 15px;
@@ -251,6 +293,7 @@ section:nth-child(2n+1){
 	box-shadow: 2px 0px 3px grey;
 	font-family: sans-serif;
 	color:white;
+	transition-duration: 1.2s;
 }
 
 .Cpp {

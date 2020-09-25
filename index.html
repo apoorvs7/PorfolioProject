@@ -7,6 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+	<div id="scroll">
+		<span id="viewpercent">0</span>
+		<span>% </span>
+		<span id="view">Viewed</span>
+	</div>
 	<header id="body-header">
 		<nav>
 			<ul id="nav-list" class="horizontal-list text-center">
@@ -15,7 +20,7 @@
 				<li><a href="#skills">Skills</a></li>
 				<li><a href="#work-exp">Experience</a></li>
 				<li><a href="#education">Education</a></li>
-				<li><a href="#port">Portfolio</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
@@ -74,22 +79,22 @@
 			</h1>
 			<div class="section-content">
 				<div class="performance">
-					<div class="percent Cpp">C++</div>
+					<div class="percent Cpp" data-val="75%">C++</div>
 				</div>
 				<div class="performance">
-					<div class="percent DS">DS</div>
+					<div class="percent DS" data-val="65%">DS</div>
 				</div>
 				<div class="performance">
-					<div class="percent Algorithm">Algorithm</div>
+					<div class="percent Algorithm" data-val="60%">Algorithm</div>
 				</div>
 				<div class="performance">
-					<div class="percent SQL">SQL</div>
+					<div class="percent SQL" data-val="60%">SQL</div>
 				</div>
 				<div class="performance">
-					<div class="percent HTML">HTML</div>
+					<div class="percent HTML" data-val="65%">HTML</div>
 				</div>
 				<div class="performance">
-					<div class="percent CSS">CSS</div>
+					<div class="percent CSS" data-val="50%">CSS</div>
 				</div>
 			</div>
 
@@ -183,7 +188,7 @@
             
 		</section>
 
-		<section id="port">
+		<section id="portfolio">
 			<h1>
                 <span class="section-title"><i class="fas fa-list"></i></span>
                 <span class="section-title">Portfolio</span>
@@ -256,9 +261,10 @@
 	                <li><a href=""><i class="fab fa-quora"></i></a></li>
 	            </ul>
 	        </div>
+
 		</section>
 
 	</main>
-
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
